@@ -9,7 +9,7 @@ from langgraph.prebuilt import ToolNode
 from prompts import coder_prompt ,Update_shower_prompt, Update_llm_prompt, saving_prompt
 import re
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDxvHhOHjLhVkeK0z5tj96KYio2MZDrzpA"
+os.environ["GOOGLE_API_KEY"] = "Api"
 
 class AgentState(TypedDict):
     messages : Annotated[Sequence[BaseMessage],add_messages]
